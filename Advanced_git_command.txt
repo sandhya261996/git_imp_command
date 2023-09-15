@@ -1,0 +1,4 @@
+>>rebase >>conflicts >> Squash & Cherry-pick
+
+1. What is Rebase ?
+
