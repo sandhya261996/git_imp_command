@@ -1,0 +1,60 @@
+git init:
+
+Explanation: Initializes a new Git repository in the current directory.
+git clone <repository_url>:
+
+Explanation: Creates a copy of a remote repository on your local machine. It's used to get a local working copy of a remote repository.
+git add <file(s)>:
+
+Explanation: Stages changes for commit. You specify the files or directories you want to include in the next commit.
+git commit -m "<commit_message>":
+
+Explanation: Records staged changes with a descriptive commit message. This creates a checkpoint in your project's history.
+git status:
+
+Explanation: Shows the status of your working directory, including untracked, modified, and staged files.
+git log:
+
+Explanation: Displays a log of all commits in reverse chronological order, showing commit messages, authors, and commit IDs.
+git branch:
+
+Explanation: Lists all branches in the repository and indicates the currently checked-out branch.
+git checkout -b <new_branch>:
+
+Explanation: Creates and switches to a new branch with the specified name.
+git merge <branch_name>:
+
+Explanation: Combines changes from one branch into another. It's often used to integrate changes from a feature branch into the main branch.
+git pull:
+
+Explanation: Fetches changes from a remote repository and merges them into the current branch. Equivalent to git fetch followed by git merge.
+git push:
+
+Explanation: Pushes local commits to a remote repository. It updates the remote branch with your local changes.
+git remote -v:
+
+Explanation: Lists all remote repositories associated with the current Git project and their URLs.
+git fetch:
+
+Explanation: Retrieves changes from a remote repository but doesn't merge them. It's useful to see what's changed on the remote before pulling.
+git reset <commit_id>:
+
+Explanation: Unstages changes and moves the HEAD and branch pointer to a specified commit. Useful for undoing commits or resetting to a previous state.
+git stash:
+
+Explanation: Temporarily saves changes that are not ready to be committed, allowing you to switch branches without committing incomplete work.
+git tag <tag_name>:
+
+Explanation: Creates a named tag for a specific commit, often used to mark release versions.
+git cherry-pick <commit_id>:
+
+Explanation: Applies a specific commit from one branch to another. Useful for selectively merging individual commits.
+git rebase <branch_name>:
+
+Explanation: Reapplies your local commits on top of the latest commits from another branch. Helps maintain a cleaner commit history.
+git clean -n and git clean -f:
+
+Explanation: -n previews untracked files that will be removed, while -f forcefully removes them from your working directory.
+git submodule:
+
+Explanation: Manages Git submodules within a repository, allowing you to include other Git repositories as dependencies.
