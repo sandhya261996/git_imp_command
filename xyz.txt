@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 "I am writing for conflicts scenario but in the remote branch"
+=======
+"I am writing for the merging scenario from dev to main "
+>>>>>>> dev
